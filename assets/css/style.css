@@ -722,6 +722,10 @@ header {
      height: 6px;
 }
 /* column */
+.footer {
+     display: flex;
+     background: #171100;
+}
 
 .footer .main-content {
      width: 144rem;
@@ -731,7 +735,7 @@ header {
 }
 .footer .row {
      display: flex;
-     margin-left: 135px;
+     margin-left: 101px;
      justify-content: space-around;
 
      border-bottom: 1px solid #59554b;
@@ -740,6 +744,7 @@ header {
 .footer .row .lesson {
      width: 26.7rem;
      height: 16.3rem;
+
      margin-top: 96px;
      flex-shrink: 0;
 }
